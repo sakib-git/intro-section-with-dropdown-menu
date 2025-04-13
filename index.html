@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta name="google-site-verification" content="U4JgfG1NAXkVzooYtN2yMLTlbIaOwgyx9HBOvmJltkg">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="overlay"></div>
+
+  <main>
+
+    <div class="hero">
+
+      <div class="heroooss">
+        <div class="mobile-hero">
+          <a href="#">
+            <img src="images/logo.svg" alt="">
+          </a>
+        </div>
+
+        <div class="navDiv sidebar">
+
+          <img class="close-menu" src="./images/icon-close-menu.svg" alt="close menu icon">
+
+          <div class="nav-menu">
+            <button id="btn1"> Features
+
+              <i class='bx bx-chevron-down' id="down"></i>
+              <i class='bx bx-chevron-up' id="up"></i>
+            </button>
+
+            <div id="featuresDropdown" class="dropdown">
+              <div class="todolist">
+                <img src="images/icon-todo.svg" alt="">
+                <a href="#">Todo List</a>
+              </div>
+
+              <div>
+                <img src="images/icon-calendar.svg" alt="">
+                <a href="#">Calendar</a>
+              </div>
+
+              <div>
+                <img src="images/icon-reminders.svg" alt="">
+                <a href="#">Reminders</a>
+              </div>
+              
+              <div>
+                <img src="images/icon-planning.svg" alt="">
+                <a href="#">Planning</a>
+              </div>
+            </div>
+
+            <button id="btn2">
+              Company
+              <i class='bx bx-chevron-down' id="down2"></i>
+              <i class='bx bx-chevron-up' id="up2"></i>
+            </button>
+            <div id="featuresDropdown2" class="dropdown2">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+
+            <a href="#"> Careers</a>
+            <a href="#"> About</a>
+          </div>
+
+
+          <div class="login-register">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="Registera">Register</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <button class="open-menu">
+        <img src="images/icon-menu.svg" alt="menu">
+      </button>
+
+    </div>
+
+    <div class="wrapper">
+
+      <div class="text-area">
+
+        <h1> Make remote work</h1>
+
+        <p> Get your team in sync, no matter your location. Streamline processes,create team rituals, and watch
+          productivity soar.</p>
+
+        <a href="#">Learn more</a>
+        <div class="grid-img-area">
+          <img src="images/client-databiz.svg" alt="client-databiz">
+          <img src="images/client-audiophile.svg" alt="client-audiophile">
+          <img src="images/client-meet.svg" alt="client-meet">
+          <img src="images/client-maker.svg" alt="client-maker">
+        </div>
+      </div>
+
+      <div class="img-area">
+        <img src="images/image-hero-desktop.png" alt="">
+
+      </div>
+      <div class="background-img"></div>
+
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
